@@ -9,7 +9,7 @@ from get_embedding_function import get_embedding_function
 
 CHROMA_PATH = "chroma"
 
-GOOGLE_API_KEY = "AIzaSyAPgpFXiPfrClTfoSWsVYRc62M66SzBhZ0"
+GOOGLE_API_KEY = "Enter Your API Key"
 
 PROMPT_TEMPLATE = """
 Answer the question based only on the following context:
@@ -76,4 +76,5 @@ def query_rag(query_text: str):
     return response_text
 
 if __name__ == "__main__":
+
     main()
