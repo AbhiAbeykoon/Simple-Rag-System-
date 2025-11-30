@@ -1,7 +1,3 @@
-Here is your rewritten version using **`<br>`** for clean line breaks in Markdown:
-
----
-
 # **Simple RAG System (Chroma + LangChain + Google Generative AI)**
 
 This is a beginner-friendly Retrieval-Augmented Generation (RAG) system built using:<br>
