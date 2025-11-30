@@ -2,7 +2,7 @@ import os
 import google.generativeai as genai
 
 # PASTE YOUR KEY HERE FOR TESTING
-os.environ["GOOGLE_API_KEY"] = "AIzaSyAPgpFXiPfrClTfoSWsVYRc62M66SzBhZ0" 
+os.environ["GOOGLE_API_KEY"] = "Enter Your API Key 
 
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
@@ -12,4 +12,5 @@ try:
         if 'generateContent' in m.supported_generation_methods:
             print(f"- {m.name}")
 except Exception as e:
+
     print(f"Error connecting: {e}")
